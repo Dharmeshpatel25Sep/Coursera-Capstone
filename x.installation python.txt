@@ -1,0 +1,73 @@
+1. Go to https://www.python.org/downloads/windows/
+
+2. Download Windows x86 executable installer for more info: 
+-  https://www.pitt.edu/~naraehan/python3/getting_started_win_install.html
+
+3. Change default run path for idel (python interpreter)
+-  create short cut on desktop
+-  https://www.pitt.edu/~naraehan/python3/getting_started_win_config.html
+
+4. Type python --version, pip--version to check installation version of python 
+   -- If pip isn’t already installed, then first try to bootstrap it from the standard library:
+      by python -m ensurepip --default-pip
+   -  https://www.datacamp.com/community/tutorials/pip-python-package-manager#comments
+
+5. Ensure pip, setuptools, and wheel are up to date
+While pip alone is sufficient to install from pre-built binary archives, up to date copies of 
+the setuptools and wheel projects are useful to ensure you can also install from source archives:
+--python -m pip install --upgrade pip setuptools wheel
+
+6. Update PIP if not up to date, by following command at cmd if dosent work the run cmd as admin Ctr+Shift:
+   - python -m pip install --upgrade pip
+   - python -m pip install pandas
+   - python -m pip install matplotlib
+   - python -m pip install jupyter
+   # python -m pip uninstall pandas
+   - python -m pip install jupyter
+   - exit
+
+
+
+python -m pip install --upgrade pip setuptools wheel
+5. Installing Packages
+-  https://packaging.python.org/tutorials/installing-packages/
+
+https://python.swaroopch.com/installation.html
+https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
+https://jupyter.readthedocs.io/en/latest/install-kernel.html#how-do-i-install-python-2-and-python-3
+https://jupyter.org/install
+https://stackoverflow.com/questions/58456462/jupyterlab-installation-with-pip3
+https://www.datacamp.com/community/tutorials/pip-python-package-manager#comments
+https://stackoverflow.com/questions/27409192/install-python-modules-package-using-idle-on-windows
+https://www.datacamp.com/community/tutorials/pip-python-package-manager
+
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.8
+C:\Program Files (x86)\Python\Python38-32\Lib\site-packages\pip\_internal
+
+C:\WINDOWS\system32>jupyter notebook
+[W 10:12:37.516 NotebookApp] Terminals not available (error was No module named 'winpty.cywinpty')
+[I 10:12:37.516 NotebookApp] Serving notebooks from local directory: C:\WINDOWS\system32
+[I 10:12:37.516 NotebookApp] The Jupyter Notebook is running at:
+[I 10:12:37.516 NotebookApp] http://localhost:8888/?token=589a8451968e1f5fcbe3cc30e0f075d330bd87a43b8dad20
+[I 10:12:37.516 NotebookApp]  or http://127.0.0.1:8888/?token=589a8451968e1f5fcbe3cc30e0f075d330bd87a43b8dad20
+[I 10:12:37.516 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:12:37.830 NotebookApp]
+
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/Dharmesh.Patel/AppData/Roaming/jupyter/runtime/nbserver-15548-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=589a8451968e1f5fcbe3cc30e0f075d330bd87a43b8dad20
+     or http://127.0.0.1:8888/?token=589a8451968e1f5fcbe3cc30e0f075d330bd87a43b8dad20
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Program Files (x86)\Python\Python38-32\Lib\site-packages\pip\_vendor\packaging--edit(match)
